@@ -1,0 +1,17 @@
+Wireframe: esquema boceto guia o estructura visual (estructuras de cajas) del diseño final para implementar un sitio web.
+
+Mockup: prototipo del producto final que pasa por aprobación del cliente.
+
+Pixel perfect: técnica para ajustar los elementos a la cuadrícula con exactamente los mismos pixeles.
+
+----------------------
+
+Flexbox: utilizar el mismo concepto de bloques utilizando otras propiedades.
+        Se basa en eje principal (horizontal) y eje secundario (vertical)
+
+        Propiedades: de elementos padre
+        Propiedades: de elementos hijo
+
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://filisantillan.com/el-gran-poder-de-css3-flexbox/
