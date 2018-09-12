@@ -12,12 +12,12 @@ Flexbox: utilizar el mismo concepto de bloques utilizando otras propiedades.
         Propiedades: de elementos padre
         Propiedades: de elementos hijo
 
-
+Tools
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://filisantillan.com/el-gran-poder-de-css3-flexbox/
 
-
+Doc EMMET
 https://docs.emmet.io
 
-
+HTML elements
 http://www.htmlquick.com/es/reference/tags.html
