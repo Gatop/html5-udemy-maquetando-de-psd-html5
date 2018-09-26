@@ -189,3 +189,21 @@ background: rgba(77, 156, 77,1);
 color: rgba(255,255,255,1);
 font-family: Arial, Helvetica, sans-serif;
 }
+footer {
+    background: rgba(59, 35, 18,1) url(../img/costura_footer.png) repeat-x center 4px;
+    padding: 30px 0;
+    color: rgba(255,255,255,1);
+    margin-top: 15px;
+}
+#copy, #nav_footer {
+    align-self: baseline;
+}
+#copy {
+    font-weight: 300;
+}
+#nav_footer a {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 25px;
+}
