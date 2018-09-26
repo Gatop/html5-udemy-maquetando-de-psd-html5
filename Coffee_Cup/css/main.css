@@ -36,3 +36,29 @@ header {
     text-decoration: none;
     text-shadow: 0 4px 2px rgba(0, 0, 0, 0.6);
 }
+#logo {
+    width: 254px;
+    height: 226px;
+}
+.navbar {
+    width: 1140px;
+    height: 60px;
+    background: url(../img/fondo_menu.jpg) top center no-repeat;
+    align-items: center;
+    align-self: center;
+    padding: 20px 95px;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+.navbar a{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+.navbar a:hover, .navbar a:active {
+    color: rgba(77, 156, 77, 1);
+}
