@@ -82,6 +82,7 @@ header {
 #textos p {
     font-size: 20px;
     margin-bottom: 30px;
+    margin-top: 15px;
 }
 #textos a {
     background-color:  rgba(77, 156, 77, 0.7);
