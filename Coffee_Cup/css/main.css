@@ -93,19 +93,21 @@ header {
     display: inline-flex;
 }
 
-section {
+section, aside {
     color: rgb(59, 35, 18);
     padding: 30px 0 15px;
 }
 
-section h2{
+section h2,
+#textos_clientes h2 {
     font-size: 48px;
     font-weight: bold;
 }
-section h3 {
+section h3,
+#textos_clientes h3 {
     font-size: 20px;
     color: #cc9966;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 .separador {
     width: 160px;
@@ -118,4 +120,46 @@ p#porque {
     line-height: 1.5;
     font-weight: 300;
     padding: 12px 0;
+}
+.padre article {
+    padding: 15px 0;
+}
+.padre article:nth-of-type(even) {
+    margin: 0px 30px;
+}
+.padre article h4 {
+    margin-top: 9px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.padre article .separador {
+    margin-top: 9px;
+}
+.padre article p {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-top: 17px;
+}
+
+#textos_clientes h2,
+#textos_clientes h3,
+#textos_clientes blockquote {
+    text-align: left;
+}
+#textos_clientes {
+    margin-left: 30px;
+}
+#textos_clientes blockquote {
+    font-size: 15px;
+    line-height: 2;
+    font-family: "Arial";
+    font-style: italic;
+    padding: 15px 0 0 0;
+}
+blockquote ~ p {
+    font-family: "Arial";
+    font-style: italic;;
+    text-align: right;
+    margin-top: 50px;
 }
